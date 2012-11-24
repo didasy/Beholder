@@ -1,16 +1,38 @@
-​.BeholderButton {
-width: 15px;
-height: 15px;
-background-color: rgba(255,255,255,0.8);
-text-align: center;
-font-size: 12px;   
-}
 
 .beholderModalBox {
  background-color : rgba(0,0,0,0.5);
-width: 60%;
- height: 60%;   
+ width: 100%;
+ height: 100%;
+ display: block;
+ position: fixed;
+ text-align: center;
+ padding-top: 20px;
+ left: 0;
+ top: 0;
 }
+
+.beholderModalBox a {
+	width: 100%;
+	display: block;
+}
+
+.beholderModalBox img {
+
+}
+
+.beholderButton {
+width: 15px;
+height: 15px;
+background-color: rgba(255, 255, 255, 0.5);
+text-align: center;
+font-size: 10px; 
+display: block;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;  
+}
+
 
 body { background-color: rgba(100, 20, 20, 1); }
 ​
