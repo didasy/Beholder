@@ -123,6 +123,7 @@
       
     });
     
+    return this;
 
   };
 })( jQuery );
